@@ -1,4 +1,4 @@
-FROM wingyplus/ctools:base
+FROM wingyplus/ctools-base:latest
 MAINTAINER Thanabodee Charoenpiriyakij <wingyminus@gmail.com>
 
 ADD llvm.list /etc/apt/sources.list.d/llvm.list
