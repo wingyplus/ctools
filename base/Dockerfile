@@ -3,4 +3,4 @@ MAINTAINER Thanabodee Charoenpiriyakij <wingyminus@gmail.com>
 
 RUN apt-get update && \
         apt-get install -y cmake valgrind && \
-        rm -rf /var
+        rm -rf /var/lib/apt/lists/*
