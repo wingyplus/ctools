@@ -1,4 +1,6 @@
 FROM golang:latest
 MAINTAINER Thanabodee Charoenpiriyakij <wingyminus@gmail.com>
 
-RUN apt-get update && apt-get install -y cmake valgrind
+RUN apt-get update && \
+        apt-get install -y cmake valgrind && \
+        rm -rf /var
