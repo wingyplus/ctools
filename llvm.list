@@ -1,2 +1,0 @@
-deb http://llvm.org/apt/jessie/ llvm-toolchain-jessie-3.7 main
-deb-src http://llvm.org/apt/jessie/ llvm-toolchain-jessie-3.7 main
