@@ -9,7 +9,7 @@ RUN apt-get update && \
     clang-3.8 \
     lldb-3.8 \
     cmake make ninja-build \
-    valgrind
+    valgrind \
     && \
   rm -rf /var/lib/apt/lists/* /llvm-snapshot.gpg.key
 # Link clang-3.8 and clang++-3.8 to clang and clang++
