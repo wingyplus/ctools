@@ -7,5 +7,5 @@ RUN apt-get update && \
     valgrind \
     curl && \
   rm -rf /var/lib/apt/lists/*
-RUN curl http://llvm.org/releases/3.8.0/clang+llvm-3.8.0-x86_64-linux-gnu-ubuntu-16.04.tar.xz | tar xv --
+RUN curl http://llvm.org/releases/3.8.0/clang+llvm-3.8.0-x86_64-linux-gnu-ubuntu-16.04.tar.xz | tar Jv --
 ENV PATH=/clang+llvm-3.8.0-x86_64-linux-gnu-ubuntu-16.04/bin:$PATH
